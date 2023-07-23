@@ -20,7 +20,7 @@ public class LoginPage extends BasePage {
         PageFactory.initElements(driver, this);
 
     }
-    public void loginOnPage(String name,String password)
+    public void LoginOnPage(String name,String password)
     {
         userName.sendKeys(name);
         pass.sendKeys(password);
